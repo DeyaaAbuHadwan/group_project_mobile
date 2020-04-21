@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg5"
+    tools:context=".Salad.saladType">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/returntomain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="10sp"
+            android:background="@drawable/ic_action_return"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="309dp"
+            android:layout_height="match_parent"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/saladlistviewtype"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:dividerHeight="30dp"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
